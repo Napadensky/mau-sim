@@ -1,0 +1,50 @@
+.hidden {
+  display: none;
+}
+
+.us-card-height {
+  height: 754px;
+}
+
+.hero-img-opacity {
+  filter: brightness(35%);
+}
+
+.sectionTwo-bg-color {
+  background-color: #100f0f;
+}
+
+.header-nav-bg {
+  background-color: #100f0f;
+}
+
+.text-orange {
+  color: #fa7200;
+}
+
+.bg-orange {
+  background-color: #fa7200 !important;
+}
+
+.navbar-brand {
+  width: 16rem;
+}
+
+.nav-link-orange :hover {
+  color: #fa7200 !important;
+}
+
+.list-dot-orange{
+  list-style: none;
+}
+.list-dot-orange::before {
+  color: #fa7200;
+  content: "\2022";
+  margin-right: .5rem;
+  font-weight: bold;
+  width: 1em;
+  font-size: 40px;
+  /*
+    display: inline-block; 
+   */
+}

@@ -1,0 +1,151 @@
+/* variables */
+/* colors */
+:root {
+  /* text */
+  --text-color-orange: #fa7200;
+  /* button */
+  --btn-orange: #fa7200;
+  /* background */
+  --bg-dark: #100f0f;
+  --bg-orange: #fa7200;
+}
+
+/* header */
+
+/* nav */
+.nav-bg-dark {
+  background-color: var(--bg-dark);
+}
+
+.nav-logo-width {
+  max-width: 8rem;
+}
+
+.nav-ul-link:hover {
+  color: var(--text-color-orange);
+}
+
+.hero-img-opacity {
+  filter: brightness(35%);
+}
+
+/* hero */
+.header-btn-orange {
+  background-color: var(--btn-orange) !important;
+}
+
+/* section one */
+.list-dot-orange{
+  list-style: none;
+}
+.list-dot-orange::before {
+  color: #fa7200;
+  content: "\2022";
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: 0.4rem;
+}
+
+/* section two */
+.sectionTwo-bg-color {
+  background-color: var(--bg-dark);
+}
+
+/* section four  */
+.sf-bg-img{
+  background-image: url(../images/sectionFour.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* helper */
+.text-orange {
+  color: var(--text-color-orange);
+}
+
+.bg-orange {
+  background-color: var(--bg-orange);
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+/* test */
+.color-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.article-one{
+  background-image: url("https://random.imagecdn.app/1920/944");
+}
+
+/* test 2 */
+.bg-img{
+  background: url("https://random.imagecdn.app/1920/944");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay-img{
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+
+/* breakpoint */
+@media (max-width: 576px) {
+  .hidden- {
+    display: none;
+  }
+  .show- {
+    display: block;
+  }
+  
+}
+@media (min-width: 576px) {
+  .hidden-sm {
+    display: none;
+  }
+  .show-sm {
+    display: block;
+  }
+  
+}
+@media (min-width: 768px) {
+  .hidden-md {
+    display: none;
+  }
+  .show-md {
+    display: block;
+  }
+  
+}
+@media (min-width: 992px) {
+  .hidden-lg {
+    display: none;
+  }
+  .show-lg {
+    display: block;
+  }
+  
+}
+
+.hr-down::after{
+  content: "";
+  display: inline-block;
+  width: 60%;
+  height: 2px;
+  background-color: #707070;
+  margin: 5rem 20%;
+}
